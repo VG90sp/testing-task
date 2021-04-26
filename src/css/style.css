@@ -1,0 +1,59 @@
+.collection {
+    display: block;
+}
+.cards {
+    display: flex;
+    padding-left: 0;
+}
+.card {
+    display: inline-block;
+    width: 60px;
+    height: 40px;
+    background-position: center center;
+    opacity: .3;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 5px;
+    filter: grayscale(100%);
+}
+.data-title {
+    position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+.cards li {
+    list-style-type: none;
+}
+.visa {
+    background-image: url(https://findicons.com/files/icons/2102/credit_card_debit_card/102/visa_curved.png);
+}
+.master {
+    background-image: url(https://findicons.com/files/icons/2102/credit_card_debit_card/102/mastercard_curved.png);
+}
+.amex {
+    background-image: url(https://findicons.com/files/icons/2102/credit_card_debit_card/102/american_express_straight.png);
+}
+.discover {
+    background-image: url(https://findicons.com/files/icons/1571/chalkwork_payments/32/card_discover.png);
+}
+.mir {
+    background-image: url(https://b-flowers.ru/public/icon/mir.jpg)
+}
+
+.cardvisible {
+    opacity: 1;
+    filter: contrast(100%);
+}
+input {
+    width: 20%;
+    height: 30px;
+    box-sizing: border-box;
+}
+button {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    height: 30px;
+}
